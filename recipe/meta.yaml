@@ -21,6 +21,11 @@ requirements:
     - pip
     - python
     - awscli
+    - argparse
+    - boto
+    - boto3
+    - prettytable
+    - blessings==1.6
   run:
     - python
     - awscli
