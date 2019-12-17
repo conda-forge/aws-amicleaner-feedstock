@@ -18,7 +18,6 @@ build:
 
 requirements:
   host:
-    - pip
     - python
     - awscli
     - argparse
@@ -33,6 +32,8 @@ requirements:
 test:
   imports:
     - amicleaner
+  commands:
+    - amicleaner --help
 
 about:
   home: https://github.com/bonclay7/aws-amicleaner
