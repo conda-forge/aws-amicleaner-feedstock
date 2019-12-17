@@ -25,7 +25,7 @@ requirements:
     - boto
     - boto3
     - prettytable
-    - blessings ==1.6
+    - blessings
   run:
     - python
     - awscli
