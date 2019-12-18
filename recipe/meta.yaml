@@ -18,16 +18,17 @@ build:
 
 requirements:
   host:
-    - python >=3
+    - pip
+    - python
+
+  run:
+    - python
     - awscli
     - argparse
     - boto
     - boto3
     - prettytable
     - blessings
-  run:
-    - python >=3
-    - awscli
 
 test:
   imports:
