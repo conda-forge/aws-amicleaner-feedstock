@@ -19,12 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.4,<=3.6
+    - python
 
   run:
-    - python >=3.4,<=3.6
+    - python
     - awscli
-    - argparse
     - boto
     - boto3
     - prettytable
